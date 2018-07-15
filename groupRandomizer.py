@@ -14,7 +14,4 @@ teamSize = int(playerAmount/2)
 team1 = group[:teamSize]
 team2 = group[teamSize:]
 
-print('Team 1 is: ')
-print(team1)
-print('Team 2 is: ')
-print(team2)
+print('\nTeam 1 is:\n {}\n'.format(team1), '\nTeam 2 is:\n {}'.format(team2))
